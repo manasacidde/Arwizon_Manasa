@@ -8,5 +8,4 @@ public interface CustomerInterface {
 	public Customer[] display();
 	public Customer search(String name);
 
-
 }

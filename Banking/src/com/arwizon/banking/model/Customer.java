@@ -16,7 +16,6 @@ public class Customer {
 		count++;
 	}
 
-
 	public static int getCount() {
 		return count;
 	}

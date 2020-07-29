@@ -1,6 +1,6 @@
 
 public class Fibinocci {
-	
+
 	public static void main(String[] args) {
 		fib();
 
@@ -16,6 +16,5 @@ public class Fibinocci {
 			n1=n2;    
 			n2=n3;  
 		}
-
 	}
 }

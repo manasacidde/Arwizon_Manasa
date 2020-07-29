@@ -15,7 +15,6 @@ public class Factorial {
 		for(i=1;i<=n;i++) {
 			fact=fact*i;
 		}
-
 		return fact;
 	}
 

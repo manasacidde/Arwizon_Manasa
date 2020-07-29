@@ -18,8 +18,7 @@ public class CustomerInterfaceImpl implements CustomerInterface {
 
 	@Override
 	public Customer[] display() {
-		
-		return null;
+			return null;
 	}
 
 	@Override
