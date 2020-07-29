@@ -5,8 +5,8 @@ public class Factorial {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("enter the number");
-		int a = s.nextInt();
-		int result = fact(a);
+		int b = s.nextInt();
+		int result = fact(b);
 		System.out.println("factorial of a number is "+result);
 
 	} 
