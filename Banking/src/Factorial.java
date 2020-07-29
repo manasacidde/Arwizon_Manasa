@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Factorial {
 
 	public static void main(String[] args) {
-		Scanner scn = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the number");
-		int sc = scn.nextInt();
-		int result = fact(sc);
+		int s = sc.nextInt();
+		int result = fact(s);
 		System.out.println("factorial of a number is "+result);
 
 	} 
