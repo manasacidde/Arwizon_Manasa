@@ -25,42 +25,40 @@ public class BankingApplication {
 
 			System.out.println("Enter your option");
 			int ch = scn.nextInt();
-
-
 			switch(ch) {
 			case 1:
-			
-					System.out.println("Enter name");
-					String name = scn.next();
-					System.out.println("Enter address");
-					String  address = scn.next();
-					System.out.println("Enter Account type");
-					String  accountType = scn.next();
-					CustomerInterface  c = new CustomerInterfaceImpl();
-					Customer c1 = c.createCustomer(name,address,accountType);
-					
-					for(int i=0;i<cust.length;i++) {
-						if(cust[i]==null) {
-							cust[i]=c1;
-							break;
-						}
-					}
 
-				
+				System.out.println("Enter name");
+				String name = scn.next();
+				System.out.println("Enter address");
+				String  address = scn.next();
+				System.out.println("Enter Account type");
+				String  accountType = scn.next();
+				CustomerInterface  c = new CustomerInterfaceImpl();
+				Customer c1 = c.createCustomer(name,address,accountType);
+
+				for(int i=0;i<cust.length;i++) {
+					if(cust[i]==null) {
+						cust[i]=c1;
+						break;
+					}
+				}
+
+
 				break;
 
 			case 2:
-				
-					for(Customer cst:cust) {
-						if(cst!=null)
-						System.out.println(cst);
-						break;
-						
-					}
-					break;
-				
 
-				
+				for(Customer cst:cust) {
+					if(cst!=null)
+						System.out.println(cst);
+					break;
+
+				}
+				break;
+
+
+
 
 			case 3:
 				if(cust[0]!=null) {
@@ -84,7 +82,7 @@ public class BankingApplication {
 
 			case 4:System.exit(1);
 			break;
-			
+
 			default:
 				System.out.println("Invalid option");
 			}

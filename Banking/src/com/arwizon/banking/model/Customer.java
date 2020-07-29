@@ -13,8 +13,7 @@ public class Customer {
 	static {
 		count=101;
 	}
-
-
+	
 	public Customer() {
 		count++;
 	}

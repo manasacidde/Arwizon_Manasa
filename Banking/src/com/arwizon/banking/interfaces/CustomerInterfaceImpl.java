@@ -27,6 +27,4 @@ public class CustomerInterfaceImpl implements CustomerInterface {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-
 }
