@@ -7,6 +7,7 @@ public class CustomerInterfaceImpl implements CustomerInterface {
 	@Override
 	public Customer createCustomer(String name,String address,String accountType) {
 		
+		
 		Customer c = new Customer();
 		c.setName(name);
 		c.setAddress(address);

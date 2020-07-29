@@ -21,6 +21,7 @@ public class BankingApplication {
 		System.out.println("Enter array size");
 		int s = scn.nextInt();
 		Customer[] cust = new Customer[s];
+		
 		while(true) {
 
 			System.out.println("Enter your option");

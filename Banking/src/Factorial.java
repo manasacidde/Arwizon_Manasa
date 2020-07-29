@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
 public class Factorial {
-
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+		Scanner scn = new Scanner(System.in);
 		System.out.println("enter the number");
-		int c = s.nextInt();
-		int result = fact(c);
+		int sc = scn.nextInt();
+		int result = fact(sc);
 		System.out.println("factorial of a number is "+result);
 
 	} 

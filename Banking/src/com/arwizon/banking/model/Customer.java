@@ -8,12 +8,10 @@ public class Customer {
 	private  int customerId;
 	private  String address;
 	private  String accountType;
-
-
 	static {
 		count=101;
 	}
-	
+
 	public Customer() {
 		count++;
 	}
