@@ -14,7 +14,6 @@ public class CustomerInterfaceImpl implements CustomerInterface {
 		c.setAccountType(accountType);
 		c.setCustomerId(Customer.getCount());
 		return c;
-	
 	}
 
 	@Override

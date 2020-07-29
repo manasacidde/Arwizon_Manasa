@@ -23,7 +23,7 @@ public class BankingApplication {
 		Customer[] cust = new Customer[s];
 		
 		while(true) {
-
+			
 			System.out.println("Enter your option");
 			int ch = scn.nextInt();
 			switch(ch) {
